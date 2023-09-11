@@ -10,5 +10,4 @@ cardGroup.className = "card-group";
 dataList.forEach(element => {
     cardGroup.appendChild(Card(element));
 });
-// console.log(cardGroup);
 document.body.appendChild(cardGroup);
